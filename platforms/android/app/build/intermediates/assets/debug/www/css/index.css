@@ -1,0 +1,24 @@
+* {
+    margin: 0px;
+    outline: none;
+    padding: 0px;
+    overflow: hidden;
+    border: 0;
+}
+
+.content {
+    position: relative;
+}
+
+.overlay {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    max-width: 250px;
+    z-index: 1;
+    background: rgba(255, 255, 255, 0.5);
+    border: 1px solid black;
+    border-radius: 15px;
+    padding: 10px;
+    text-align: right;
+}
